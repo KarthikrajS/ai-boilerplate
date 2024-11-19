@@ -3,7 +3,7 @@
 This repository provides a modular foundation for integrating and using AI models in your applications. You can easily plug in different AI models, switch between them, and interact with them via standardized API routes.
 
 ## Features:
-- Support for multiple AI models (e.g., GPT, Task Optimizer, Recommendation).
+- Support for multiple AI models (e.g., GPT, Create routes to interact with AI services in your RecommendationService.js and TaskOptimizationService.js).
 - Configurable via environment variables.
 - JWT-based authentication for secure access to AI endpoints.
 - Data preprocessing and model interaction are abstracted into reusable services.
