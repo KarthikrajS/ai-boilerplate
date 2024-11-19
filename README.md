@@ -16,14 +16,14 @@ cd my-ai
 ```
 
 2. Install dependencies:
-    ```bash
-    npm install
-    ```
+```bash
+npm install
+```
 3. Set up environment variables in the `.env` file.
 4. Start the server:
-    ```bash
-    npm start
-    ```
+```bash
+npm start
+```
 
 ## Usage:
 - Make POST requests to `/api/ai/optimizeTasks` or other available routes to interact with the models.
