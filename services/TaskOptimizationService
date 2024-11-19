@@ -1,0 +1,21 @@
+// services/TaskOptimizationService.js
+import { config } from '../config/config.js';
+import axios from 'axios';
+
+export class TaskOptimizationService {
+    static async optimizeTasks(taskData) {
+        try {
+            const response = await axios.post('https://api.taskoptimizer.com/v1/optimize', {
+                data: taskData
+            }, {
+                headers: {
+                    'Authorization': `Bearer ${config.taskOptimizerApiKey}`
+                }
+            });
+
+            return response.data.optimizedTasks;
+        } catch (error) {
+            throw new Error("Error in Task Optimization service: " + error.message);
+        }
+    }
+}

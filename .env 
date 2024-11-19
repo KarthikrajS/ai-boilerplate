@@ -1,0 +1,4 @@
+GPT_API_KEY=your_gpt_api_key
+TASK_OPTIMIZER_API_KEY=your_task_optimizer_api_key
+RECOMMENDATION_API_KEY=your_recommendation_api_key
+JWT_SECRET=your_jwt_secret
