@@ -8,8 +8,13 @@ This repository provides a modular foundation for integrating and using AI model
 - JWT-based authentication for secure access to AI endpoints.
 - Data preprocessing and model interaction are abstracted into reusable services.
 
-## Setup:
-1. Clone the repository.
+## Getting Started
+1. Clone the Repository
+```
+npx degit KarthikrajS/ai-boilerplate my-ai
+cd my-ai
+```
+
 2. Install dependencies:
     ```bash
     npm install
@@ -26,3 +31,11 @@ This repository provides a modular foundation for integrating and using AI model
 ## Extending:
 - Add new AI models by creating a new file in the `models/` directory and updating `ModelService.js`.
 - Add new API routes as needed in `routes/aiRoutes.js`.
+
+
+## Contributing
+Feel free to fork this repository and make your contributions. Open a pull request to submit changes.
+
+## License
+This project is licensed under the MIT License.
+
